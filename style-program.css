@@ -1,0 +1,68 @@
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center content and arrange elements in a column */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;  /* Arrange items vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5; /* Soft background color */
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header hover effect */
+h1:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.1em;
+    color: #555;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    margin-bottom: 20px;  /* Add space between elements */
+    max-width: 400px;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid #007bff;
+    margin-top: 10px;
+}
+
+/* Link hover effect */
+a:hover {
+    background-color: #007bff;
+    color: white;
+}
